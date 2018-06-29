@@ -1,0 +1,14 @@
+C = 3;
+T = 6;
+G = 2;
+MAXCAP = 10;
+
+% Details of the truck types
+cap        = [ 5,     5,     7,     7,     6,    10];
+refrig     = [ false, false, true, true, false, false];
+
+% Orders placed by the customers.
+order = array2d(goods,customers,
+        [| 0, 0, 4, 10,
+         | 0, 4, 8, 7  |]);
+

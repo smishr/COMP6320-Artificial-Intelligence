@@ -1,0 +1,22 @@
+C = 3;
+T = 6;
+G = 2;
+MAXCAP = 10;
+
+% Details of the truck types
+cap        = [ 5,     5,     7,     7,     6,    10];
+refrig     = [ false, false, true, true, false, false];
+centsPerKm = [ 267,   267,  304,  304,  290,   320];
+
+% Distances between places. Place 0 is the depot
+D = array2d(customers,customers,
+    [   0, 877, 896, 573,
+      877, 0,  79, 296,
+      895, 79,   0, 372,
+      572, 296, 372,   0  ]);
+
+% Orders placed by the customers.
+order = array2d(goods,customers,
+        [| 0, 0, 4, 10,
+         | 0, 4, 8, 7  |]);
+

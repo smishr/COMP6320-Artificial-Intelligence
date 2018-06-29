@@ -1,0 +1,4 @@
+Logistics-Q1-4-3: It took my computer about half minute to get the optimal solution for this part
+Logistics-Q1-6-3: It took in excess of 3 minutes to get an optimal solution for this part.
+Logistics-Q1-12-4: It was taking time in excess of 10 minutes to find an optimal solution for this part. CBC solver was tried but it was giving an error
+Logistics-Q1-21-8: It was taking time in excess of 10 minutes to find an optimal solution for this part. CBC solver was tried but it was giving an error

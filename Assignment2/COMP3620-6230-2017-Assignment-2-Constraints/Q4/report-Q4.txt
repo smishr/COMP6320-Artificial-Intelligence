@@ -1,0 +1,8 @@
+1,1,3,0,7
+1,2,4,2,7
+1,3,1,0,1
+I have been able to implement the constraints and write them to the file but could not run the minzinc model from within the Python file. 
+Therefore I am trying to explain my working and understanding here. Take for instance the above three lines. Truck 1 delivers to customer
+3,4,1 in that order. In my code, I am getting the permutation of the order i.e. (1,3,4), (3,1,4), (1,4,3), (4,1,3) ... etc and then send-ing
+that particular truck in theat order and trying to check if the total cost decreases or not. If it does then that means the order for that
+truck is better than then one started with and this can be saved.

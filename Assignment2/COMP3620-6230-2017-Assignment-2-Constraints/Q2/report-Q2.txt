@@ -1,0 +1,4 @@
+Logistics-Q1-4-3: The satisfying solution for this part was reached almost immideiately within a second.
+Logistics-Q1-6-3: The satisfying solution for this part was reached almost immideiately within a second.
+Logistics-Q1-12-4: The satifying solution for this part was reached almost immideiately within a second.
+Logistics-Q1-21-8: It was taking in excess of 5 minutes to get a satisfying solution for this part using the default solver. However the result was reached very quickly using the CBC solver.
